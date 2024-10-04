@@ -1,9 +1,11 @@
 import cv2 as cv
 from matplotlib import pyplot as plt
+import os
 
 def show(img, titulo='Imagem resultado', write=False):
     if write:
-        cv.imwrite(r'C:\Users\kalew\Desktop\---UNB---\INTRO-PROSS-IMAGEM\projeto 2\imagesT2png\binarizado.jpg', img)
+        basedir = os.path.abspath(os.path.dirname(__file__))
+        cv.imwrite(os.path.join(basedir, r'images\\binarizado.jpg'), img)
     else:
         cv.imshow(titulo, img)
         cv.waitKey(0)

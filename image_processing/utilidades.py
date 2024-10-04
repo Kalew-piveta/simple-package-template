@@ -1,5 +1,6 @@
 import cv2 as cv
-
+from processamento import Gaussian_Blur
+from plotagem import show
 def histogram(img):
     return cv.calcHist([img], [0], mask=None, histSize=[256], ranges=[0, 256])
 
