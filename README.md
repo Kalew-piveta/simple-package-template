@@ -16,8 +16,8 @@ Este pacote contém funcionalidades para processamento de imagens e geração de
 Você pode instalar o pacote diretamente com o `pip`. Primeiro, clone o repositório ou baixe os arquivos.
 
 ```bash
-git clone https://github.com/seu_usuario/meu_pacote_processamento_imagem.git
-```
+[git clone https://github.com/seu_usuario/meu_pacote_processamento_imagem.git
+](https://github.com/Kalew-piveta/simple-package-template.git)```
 
 ## Author
 Kalew
