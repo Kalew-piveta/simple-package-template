@@ -1,27 +1,28 @@
-# package_name
+# Image processing
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Este pacote contém funcionalidades para processamento de imagens e geração de histogramas e gráficos.
 
-## Installation
+## Funcionalidades
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+- Conversão de imagens para escala de cinza
+- Aplicação de filtros (Gaussiano, Mediana)
+- Criação de histogramas de intensidade
+- Binarização de imagens
+- Operações morfológicas (Abertura, Erosão)
+- Exibição de imagens e gráficos
+
+## Instalação
+
+Você pode instalar o pacote diretamente com o `pip`. Primeiro, clone o repositório ou baixe os arquivos.
 
 ```bash
-pip install package_name
-```
-
-## Usage
-
-```python
-from package_name import file1_name
-file1_name.my_function()
+git clone https://github.com/seu_usuario/meu_pacote_processamento_imagem.git
 ```
 
 ## Author
-My_name
+Kalew
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+

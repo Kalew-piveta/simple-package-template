@@ -1,21 +1,20 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as f:
-    page_description = f.read()
-
-with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
-
 setup(
-    name="package_name",
-    version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
-    long_description=page_description,
-    long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    name='image_processing',
+    version='0.1',
+    description='Pacote para processamento de imagens e plotagem de gráficos',
+    author='Kalew',
     packages=find_packages(),
-    install_requires=requirements,
-    python_requires='>=3.8',
+    install_requires=[
+        'opencv-python',
+        'numpy',
+        'matplotlib',
+    ],
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
 )
